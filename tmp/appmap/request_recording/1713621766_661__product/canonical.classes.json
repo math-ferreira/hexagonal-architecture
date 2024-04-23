@@ -1,6 +1,0 @@
-[
-  "com/hexagonal/architecture/application/adapters/controllers/ProductController",
-  "com/hexagonal/architecture/domain/adapters/service/ProductServicePortImpl",
-  "com/hexagonal/architecture/infraestructure/adapters/entities/ProductEntity",
-  "com/hexagonal/architecture/infraestructure/repositories/impl/ProductRepositoryImpl"
-]

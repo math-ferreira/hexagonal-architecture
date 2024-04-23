@@ -1,7 +1,0 @@
-[
-  {
-    "route": "POST /product",
-    "parameters": "()",
-    "status": 200
-  }
-]
