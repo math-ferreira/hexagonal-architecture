@@ -19,11 +19,11 @@ The API documentation is available using Swagger UI. After running the applicati
 
 ## Modules
 
-### [hexagonal-architecture-v1]([hexagonal-architecture-v1](hexagonal-architecture-v1))
+### [hexagonal-architecture-v1](https://github.com/math-ferreira/hexagonal-architecture-spring/tree/main/hexagonal-architecture-v1)
 
 This module contains a simple project to start studying hexagonal architecture. It provides a basic implementation with minimal dependencies and functionality.
 
-### [hexagonal-architecture-v2]([hexagonal-architecture-v2](hexagonal-architecture-v2))
+### [hexagonal-architecture-v2](https://github.com/math-ferreira/hexagonal-architecture-spring/tree/main/hexagonal-architecture-v2)
 
 This module contains a more complex project demonstrating a full-fledged implementation of hexagonal architecture. It includes multiple layers, such as adapters, application, domain, and infrastructure, and showcases various design patterns and best practices.
 
