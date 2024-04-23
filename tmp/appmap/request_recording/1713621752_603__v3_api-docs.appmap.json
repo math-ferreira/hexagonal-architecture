@@ -1,0 +1,84 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "sec-fetch-mode": "cors",
+          "referer": "http://localhost:8080/swagger-ui/index.html",
+          "sec-fetch-site": "same-origin",
+          "accept-language": "en-US,en;q=0.9,pt;q=0.8",
+          "cookie": "_pk_id.1.1fff=f4de854a6f4138c4.1695427207.; Idea-4b25f4ef=d5d6eb24-3c89-45b0-a02b-af973eebecca; _ga=GA1.1.128393737.1700861743; _ga_D5PD3BY0PF=GS1.1.1700861743.1.1.1700862564.0.0.0",
+          "accept": "application/json,*/*",
+          "sec-ch-ua": "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\"",
+          "host": "localhost:8080",
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br, zstd",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+          "sec-fetch-dest": "empty"
+        },
+        "normalized_path_info": "/v3/api-docs",
+        "path_info": "/v3/api-docs",
+        "protocol": "HTTP/1.1",
+        "request_method": "GET"
+      },
+      "id": 1,
+      "thread_id": 51
+    },
+    {
+      "elapsed": 0.06824191,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Keep-Alive": "timeout=60",
+          "Connection": "keep-alive",
+          "Content-Length": "1533",
+          "Date": "Sat, 20 Apr 2024 14:02:33 GMT",
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      },
+      "id": 2,
+      "parent_id": 1,
+      "thread_id": 51
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "GET /v3/api-docs (200) - 15:02:32.603",
+    "app": "hexagonal-architecture",
+    "language": {
+      "name": "java",
+      "version": "21.0.1+12-29",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "request_recording",
+      "type": "requests"
+    },
+    "recording": {},
+    "git": {
+      "repository": "https://github.com/math-ferreira/hexagonal-architecture.git",
+      "branch": "main",
+      "commit": "38cb12db46afdcc8c9c1894af85054e6b12916f0"
+    }
+  },
+  "classMap": [
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /v3/api-docs"
+        }
+      ]
+    }
+  ]
+}

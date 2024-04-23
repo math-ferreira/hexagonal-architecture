@@ -1,0 +1,6 @@
+[
+  "com/hexagonal/architecture/application/adapters/controllers",
+  "com/hexagonal/architecture/domain/adapters/service",
+  "com/hexagonal/architecture/infraestructure/adapters/entities",
+  "com/hexagonal/architecture/infraestructure/repositories/impl"
+]

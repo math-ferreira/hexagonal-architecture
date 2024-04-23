@@ -1,0 +1,158 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "name": "createProduct",
+                                "type": "function",
+                                "static": false,
+                                "location": "hexagonal-architecture-v1/src/main/java/com/hexagonal/architecture/application/adapters/controllers/ProductController.java:29"
+                              }
+                            ],
+                            "name": "ProductController",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "controllers",
+                        "type": "package"
+                      }
+                    ],
+                    "name": "adapters",
+                    "type": "package"
+                  }
+                ],
+                "name": "application",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "name": "save",
+                                "type": "function",
+                                "static": false,
+                                "location": "hexagonal-architecture-v1/src/main/java/com/hexagonal/architecture/infraestructure/repositories/impl/ProductRepositoryImpl.java:24"
+                              }
+                            ],
+                            "name": "ProductRepositoryImpl",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "impl",
+                        "type": "package"
+                      }
+                    ],
+                    "name": "repositories",
+                    "type": "package"
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "name": "preUpdate",
+                                "type": "function",
+                                "static": false,
+                                "location": "hexagonal-architecture-v1/src/main/java/com/hexagonal/architecture/infraestructure/adapters/entities/ProductEntity.java:49"
+                              }
+                            ],
+                            "name": "ProductEntity",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "entities",
+                        "type": "package"
+                      }
+                    ],
+                    "name": "adapters",
+                    "type": "package"
+                  }
+                ],
+                "name": "infraestructure",
+                "type": "package"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "name": "createProduct",
+                                "type": "function",
+                                "static": false,
+                                "location": "hexagonal-architecture-v1/src/main/java/com/hexagonal/architecture/domain/adapters/service/ProductServicePortImpl.java:32"
+                              }
+                            ],
+                            "name": "ProductServicePortImpl",
+                            "type": "class"
+                          }
+                        ],
+                        "name": "service",
+                        "type": "package"
+                      }
+                    ],
+                    "name": "adapters",
+                    "type": "package"
+                  }
+                ],
+                "name": "domain",
+                "type": "package"
+              }
+            ],
+            "name": "architecture",
+            "type": "package"
+          }
+        ],
+        "name": "hexagonal",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  },
+  {
+    "type": "http",
+    "name": "HTTP server requests",
+    "children": [
+      {
+        "type": "route",
+        "name": "POST /product"
+      }
+    ]
+  },
+  {
+    "type": "database",
+    "name": "Database",
+    "children": [
+      {
+        "type": "query",
+        "name": "select pe1_0.id,pe1_0.amount,pe1_0.created_at,pe1_0.description,pe1_0.name,pe1_0.price,pe1_0.updated_at from product pe1_0 where pe1_0.id=?"
+      },
+      {
+        "type": "query",
+        "name": "insert into product (amount,created_at,description,name,price,updated_at,id) values (?,?,?,?,?,?,?)"
+      }
+    ]
+  }
+]
