@@ -153,8 +153,3 @@ The API documentation is available using Swagger UI. After running the applicati
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or create a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
