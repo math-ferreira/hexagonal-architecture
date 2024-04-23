@@ -11,9 +11,10 @@ This project is a demonstration of the implementation of a bookstore application
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Testing](#testing)
+- [Dependencies](#dependencies)
+- [Getting started](#getting-started)
+- [API Documentation](#api-documentation)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
